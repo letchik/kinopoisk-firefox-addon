@@ -1,0 +1,41 @@
+
+.kp-button{
+  	list-style-image: url("chrome://kinopoisk/skin/Kinopoisk_favicon_16x16.png");
+}
+
+.kp-button{
+  	list-style-image: url("chrome://kinopoisk/skin/Kinopoisk_favicon_16x16.png");
+}
+
+
+.kp-button-firstLoad{
+	-moz-box-orient:vertical;
+  	list-style-image: url("chrome://kinopoisk/skin/Kinopoisk_favicon_16x16.png");
+}
+.kp-button-settings{
+  	list-style-image: url("chrome://kinopoisk/skin/advancedsettings.png");
+}
+.kp-button-default
+{
+	-moz-box-orient:horizontal;
+  	list-style-image: url("chrome://kinopoisk/skin/Kinopoisk_favicon_16x16.png");
+}
+
+.kp-button-loading
+{
+  	list-style-image: url("chrome://kinopoisk/skin/load.gif");
+}
+.kp-button-orange
+{
+  	list-style-image: url("chrome://kinopoisk/skin/logo-orange.png");
+}
+
+
+#kp-context {
+    list-style-image: url("chrome://kinopoisk/skin/logo.png");
+    
+}
+
+#context-kp-search {
+    
+}

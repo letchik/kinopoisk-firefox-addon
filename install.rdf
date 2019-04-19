@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>ivan@kinopoisk.ru</em:id>
+    <em:type>2</em:type>
+    <em:name>КиноПоиск</em:name>
+    <em:description>Расширение позволяет в один клик получить рейтинг фильма на КиноПоиске и сделать прямой переход на его страницу. Достаточно просто выделить название фильма мышкой на любом сайте в Интернете.</em:description>
+    <em:version>1.0</em:version>
+    <em:creator>Kinopoisk</em:creator>
+    <em:contributor>Ivan Solodukhin</em:contributor>
+    <em:homepageURL>http://kinopoisk.ru/</em:homepageURL>
+    <em:iconURL>chrome://kinopoisk/skin/Kinopoisk_favicon_32x32.png</em:iconURL>
+    <em:optionsURL>chrome://kinopoisk/content/settings.xul</em:optionsURL>
+    
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>4.2a1pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

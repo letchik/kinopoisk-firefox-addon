@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://kinopoisk/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://kinopoisk/locale/overlay.dtd">
+<overlay id="kinopoisk-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+  <script src="ff-overlay.js"/>
+
+    <stringbundleset id="stringbundleset">
+        <stringbundle id="kinopoisk-strings" src="chrome://kinopoisk/locale/overlay.properties"/>
+    </stringbundleset>
+
+    <toolbarpalette id="BrowserToolbarPalette">
+        <toolbaritem id="kp-toolbar-item" title="">
+            <toolbarbutton id="kp-button-t" class="kp-button-firstLoad toolbarbutton-1 chromeclass-toolbar-additional"
+                label="&kinopoiskToolbar.label;" tooltiptext="&kinopoiskToolbarButton.tooltip;"
+                oncontextmenu="kinopoisk.onToolbarSettingsButtonCommand();"
+                oncommand="kinopoisk.onToolbarButtonCommand()"/>
+        </toolbaritem>
+    </toolbarpalette>
+
+    <toolbox id="navigator-toolbox">
+        <toolbar class="chromeclass-toolbar" toolbarname="&kinopoiskToolbar.name;" customizable="true" id="kinopoisk-toolbar">
+            <toolbarbutton id="kp-button" class="kp-button-default toolbarbutton-1 chromeclass-toolbar-additional"
+                label="&kinopoiskToolbar.label;" tooltiptext="&kinopoiskToolbarButton.tooltip;"
+                oncontextmenu="kinopoisk.onToolbarSettingsButtonCommand();"
+                oncommand="kinopoisk.onToolbarButtonCommand()"/>
+            <toolbarbutton id="kp-settings-button" class="kp-button-settings"
+                label="&kinopoiskSettingsToolbar.label;" tooltiptext="&kinopoiskToolbarButton.tooltip;"
+                oncommand="kinopoisk.onToolbarSettingsButtonCommand()"/>
+        </toolbar>
+    </toolbox>
+      
+    <popup id="contentAreaContextMenu">
+        <menuitem id="kp-context" label="&kinopoiskToolbarContext.label;" class="menuitem-iconic"
+            image="chrome://kinopoisk/skin/logo.png"
+            insertbefore="context-viewsource" oncommand="kinopoisk.onMenuButtonCommand();"/>
+    </popup>
+    <statusbar id="status-bar">
+        <statusbarpanel id="kp-statusbarpanel">
+            <toolbarbutton id="kp-button-status" class="kp-button-default chromeclass-toolbar-additional"
+                label="&kinopoiskToolbar.label;" 
+                tooltiptext="test"
+                oncontextmenu="kinopoisk.onToolbarSettingsButtonCommand();"
+                oncommand="kinopoisk.onToolbarButtonCommand()"/>
+
+    
+            <!--image id="kp-button-status" class='kp-button-firstLoad toolbarbutton-1 chromeclass-toolbar-additional'/>
+            <label id="kp-button-status-label" value="" style=" margin-left: 5px; padding: 0px;"/-->
+        </statusbarpanel>
+         
+    </statusbar>
+   
+   
+  
+</overlay>

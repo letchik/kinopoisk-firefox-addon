@@ -1,0 +1,9 @@
+content   kinopoisk                 chrome/content/
+skin      kinopoisk   classic/1.0   chrome/skin/
+locale    kinopoisk   ru-RU         chrome/locale/ru-RU/
+
+
+overlay	chrome://browser/content/browser.xul        chrome://kinopoisk/content/ff-overlay.xul application={ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+overlay	chrome://navigator/content/navigator.xul    chrome://kinopoisk/content/ff-overlay.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+style chrome://global/content/customizeToolbar.xul  chrome://kinopoisk/skin/overlay.css
+

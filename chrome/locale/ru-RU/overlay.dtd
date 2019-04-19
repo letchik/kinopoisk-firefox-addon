@@ -1,0 +1,15 @@
+<!ENTITY kinopoiskContext.accesskey "Y">
+<!ENTITY kinopoiskToolbar.name  "Кинопоиск">
+<!ENTITY kinopoiskToolbar.label "КиноПоиск.Ru">
+<!ENTITY kinopoiskSettingsToolbar.label "">
+<!ENTITY kinopoiskToolbarButton.tooltip "Настройки">
+<!ENTITY kinopoiskToolbarButton.tooltip "Выделите мышью часть текста">
+<!ENTITY kinopoiskToolbarContext.label "Искать на КиноПоиске">
+<!ENTITY kinopoiskSettingsTitle.label "Настройки расширения КиноПоиск">
+<!ENTITY kinopoiskSettingsMode.label "Отображать кнопку в">
+<!ENTITY kinopoiskSettingsModeToolbox.label "панели инструментов">
+<!ENTITY kinopoiskSettingsModeStatus.label "панели дополнений">
+<!ENTITY kinopoiskSettingsModeContext.label "контекстном меню">
+<!ENTITY kinopoiskSettingsSearch.label "Производить поиск при">
+<!ENTITY kinopoiskSettingsSearchClick.label "клике на кнопку">
+<!ENTITY kinopoiskSettingsSearchSelect.label "выделении текста на странице">
